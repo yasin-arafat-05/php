@@ -2,6 +2,8 @@
 - 01: PHP Introduction
 - 02: Prerequisite And Advantage
 - 03: Write our first code 
+- 04: Error Handling `(not accessable file.)`
+
 <br>
 
 # `#01 PHP Introduction:`
@@ -41,8 +43,33 @@ All most support all the database.
 
 - 1st, download a server.
 - Make a folder name "php" location for linux: `opt/lampp/htdocs`
-- make a file name with "index.php"
+- make a file name with "index.php": `In linux we have an permission issue so:`
 
+**1. Making a folder:**
+```bash
+sudo mkdir folder_name
+```
+**2. Making a file:**
+```bash
+sudo touch file_name
+```
+**3. Give read write permission:**
+```bash
+sudo chmod 777 index.php
+```
+Now, good to go baby!
+
+
+<br>
+
+# `#04 Handle error:`
+<br>
+
+`If we will got an error then the file will not accessable in our browser.So, in this case we can see the error log:`
+
+```bash
+ cat /opt/lampp/logs/error_log  
+```
 
 
 
